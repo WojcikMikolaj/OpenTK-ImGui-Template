@@ -86,9 +86,9 @@ public class Camera
     {
         Front = new Vector3
         {
-            X = (float) Math.Cos(Pitch) * (float) Math.Cos(Yaw),
-            Y = (float) Math.Sin(Pitch),
-            Z = (float) Math.Cos(Pitch) * (float) Math.Sin(Yaw)
+            X = (float) MathHelper.Cos(Pitch) * (float) MathHelper.Cos(Yaw),
+            Y = (float) MathHelper.Sin(Pitch),
+            Z = (float) MathHelper.Cos(Pitch) * (float) MathHelper.Sin(Yaw)
         };
 
         Front = Vector3.Normalize(Front);

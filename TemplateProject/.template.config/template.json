@@ -1,0 +1,28 @@
+{
+  "author": "Your Name",
+  "name": "Async Main Console Application",
+  "description": "A project for creating an OpenTK application with ImGui GUI.",
+  "identity": "YourName.ConsoleApp.1.0",
+  "shortName": "OpenTK-ImGui",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MyProject",
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net5.0"
+        },
+        {
+          "choice": "net6.0"
+        }
+      ],
+      "defaultValue": "net6.0"
+    }
+  }
+}
