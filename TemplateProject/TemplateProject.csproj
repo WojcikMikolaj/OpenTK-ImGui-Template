@@ -17,10 +17,12 @@
     <ItemGroup>
         <None Remove="Resources/*" />
         <EmbeddedResource Include="Resources/*" />
+        <EmbeddedResource Remove=".template.config\**" />
+        <None Remove=".template.config\**" />
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include=".template.config\template.json" />
+      <Compile Remove=".template.config\**" />
     </ItemGroup>
 
 </Project>
