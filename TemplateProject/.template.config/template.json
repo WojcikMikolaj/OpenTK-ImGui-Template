@@ -1,14 +1,14 @@
 {
-  "author": "Your Name",
-  "name": "Async Main Console Application",
+  "author": "Mikołaj Wójcik, Tomasz Herman",
+  "name": "OpenTK application with ImGui",
   "description": "A project for creating an OpenTK application with ImGui GUI.",
-  "identity": "YourName.ConsoleApp.1.0",
+  "identity": "YourName.OpenTK-ImGuiApp",
   "shortName": "OpenTK-ImGui",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "MyProject",
+  "sourceName": "MyOpenTKProject",
   "symbols": {
     "Framework": {
       "type": "parameter",
